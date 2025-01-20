@@ -38,6 +38,5 @@ jobs:
         npm install -g pm2
         npm install
 
-    - name: Start application with timeout
-      run: |
-        timeout 14520s npm run zoko
+    - name: Start
+        timeout 1452
